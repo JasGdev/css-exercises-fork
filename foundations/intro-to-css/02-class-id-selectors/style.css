@@ -1,1 +1,27 @@
 /* Add CSS Styling */
+.odd{
+    background-color: rgb(255, 124, 124);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+
+#second-element{
+    font-size: 36px;
+    color: rgb(0, 0, 400);
+}
+
+/* #third-element{
+    font-size: 24px;
+} */
+
+/* Instead of doing the above better just to create a font change class and apply it to third and fourth element */
+
+.font-change{
+    font-size: 24px;
+}
+
+#fourth-element{
+    background-color: rgb(100, 333, 100);
+    /* font-size: 24px; */
+    font-weight: bold;
+}
