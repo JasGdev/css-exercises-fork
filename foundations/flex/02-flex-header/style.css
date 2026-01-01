@@ -23,3 +23,48 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/*work*/
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  /* here instead of setting 
+  
+  margin: auto 
+  
+  for .logo could have just set 
+  
+  justify-content: space-between;
+  
+  in order to achieve the following
+  
+  items are evenly distributed in the line; 
+  first item is on the start line, last item on the end line*/
+  
+  justify-content: space-between;
+
+}
+
+/* .logo {  
+  margin: auto;
+  
+} */
+
+
+ul {
+  /* 
+  padding-left: 10px
+  
+  instead of using the above to achieve removing the left space 
+  for the links just use the following 
+  
+  padding: 0;*/
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  /* don't need justify-content: end; */
+  
+}
+
