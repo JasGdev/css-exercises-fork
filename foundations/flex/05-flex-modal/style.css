@@ -67,3 +67,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* additions */
+
+
+.modal{
+  /* To align blue icon to left */
+  display: flex;
+  /* padding around modal */
+  padding: 15px;
+  gap: 15px;
+}
+
+
+.icon{
+  /* equal space on either side of icon */
+
+
+  /* disables shrinking of icon */
+  flex-shrink: 0;
+}
+
+.header{
+  /* header is bold and slightly larger than text */
+  font-weight: bolder;
+  font-size: large;
+}
+
+/* close button alignment */
+.header-x{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text{
+  margin: 10px 0px;
+}
