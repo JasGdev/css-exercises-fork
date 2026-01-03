@@ -24,3 +24,85 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* CHANGES */
+
+/* important to get rid of default padding */
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* header on top, footer on bottom and content in middle */
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* center logo input and and buttons */
+.content{
+  margin: auto;
+}
+
+
+
+
+
+/* make header/footer single row and on left and right side and add padding */
+.header, .footer{
+  display:  flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+/* makes the left and right side single row with gap */
+.left-links, .right-links{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+/* removes the styling on the links */
+a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+
+/* add padding to button */
+button{
+  padding: 5px 10px;
+
+}
+ 
+/* add gap between buttons */
+.buttons{
+  gap: 5px;
+}
+
+
+
+ 
+.input, .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  margin: 10px 0px;
+}
+
+
+.container{
+  display: flex;
+  min-height: 500px;
+}
