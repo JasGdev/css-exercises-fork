@@ -46,3 +46,45 @@ a {
 ul {
   list-style-type: none;
 }
+
+
+
+*{
+  gap: 8px;
+}
+
+
+/* changes */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+
+}
+
+.left-ui{
+  display: flex;
+  gap: 16px;
+}
+
+.right-ui{
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.links{
+  display: flex;
+  padding: 0px;
+  gap: 16px;
+}
+
+.notifications{
+  height: fit-content;
+  align-self: center
+}
+
+.profile-image{
+  flex-shrink: 0;
+}
