@@ -34,7 +34,9 @@ body {
 body{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /*  justify-content: space-between; 
+      better instead to use flex:1; on container*/
+
 }
 
 /* align footer */
@@ -62,7 +64,6 @@ body{
 .card{
   padding: 30px;
   width: 200px;
-  height: 200px;
 }
 
 /* sets up header */
