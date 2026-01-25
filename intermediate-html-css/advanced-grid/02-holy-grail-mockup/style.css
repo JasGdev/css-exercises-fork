@@ -89,3 +89,27 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* Start */
+
+/* 2 col */
+/* second col is 4x first */
+
+
+
+.container{
+  display: grid;
+  grid-template: repeat(4, auto)/1fr 4fr;
+  gap: 4px ;
+  height: min-content;
+}
+
+.header,
+.footer{
+  grid-column: 1/3;
+}
+
+.sidebar{
+  grid-row: 2/4;
+}
+
